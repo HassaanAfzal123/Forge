@@ -1,6 +1,6 @@
-Forge CLI – AI-Powered Terminal Assistant
+#Forge CLI – AI-Powered Terminal Assistant
 
-Forge CLI is a Go-based command-line tool that converts natural language instructions into executable shell commands using the Mistral AI model (via Ollama). It is designed to safely generate and run terminal commands in your current working environment.
+**Forge CLI is a Go-based command-line tool that converts natural language instructions into executable shell commands using the Mistral AI model (via Ollama). It is designed to safely generate and run terminal commands in your current working environment.
 
 Features
 
@@ -18,16 +18,6 @@ Dry-run and confirmation before executing any command.
 
 Modular code structure for AI interaction, context detection, and command execution.
 
-Project Structure
-.
-├── cmd
-│   └── forge           # CLI entry point
-├── internal
-│   ├── ai              # AI communication (Ollama/Mistral)
-│   ├── context         # System detection
-│   └── executor        # Safety checks and command execution
-├── go.mod
-└── README.md
 
 Getting Started
 Requirements
